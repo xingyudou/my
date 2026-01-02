@@ -102,6 +102,7 @@ theme: butterfly
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
+
 # ==========================================
 # 必须写在这里才生效！注意 theme_config 顶格写！
 # ==========================================

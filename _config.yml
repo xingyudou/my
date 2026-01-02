@@ -107,7 +107,7 @@ deploy:
 # ==========================================
 theme_config:
   # 1. 背景图 (对应你 source 文件夹里的 bg.png)
-background: /bg.png
+background:  /bg.png
 
   # 2. 头像
 avatar:

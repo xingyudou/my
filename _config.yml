@@ -103,17 +103,16 @@ theme: butterfly
 deploy:
   type: ''
   
-# ============================================
-# 主题覆盖设置 (注意 theme_config 是顶格的)
-# ============================================
 theme_config:
-  # 下面这些必须缩进 2 格！属于 theme_config 的手下
+  # 1. 设置背景图 (确保你的 source 文件夹里有一张叫 bg.png 的图)
+  background: /bg.png
+
+  # 2. 设置头像 (如果你还没上传自己的头像，这里先暂时用默认的，以后有了再改)
   avatar:
-    img: https://github.com/user-attachments/assets/0259884f-761c-4e29-be2a-35e1c03017ee
+    img: https://unpkg.com/hexo-theme-butterfly/source/img/avatar.png
     effect: true
 
-  background: https://github.com/user-attachments/assets/0259884f-761c-4e29-be2a-35e1c03017ee
-
+  # 3. 设置公告 (注意缩进：enable 和 content 前面有 4 个空格)
   notice:
     enable: true
-    content: "配置成功！这下肯定变了！"
+    content: "客！<br>记录"

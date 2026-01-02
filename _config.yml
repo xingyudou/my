@@ -1,46 +1,42 @@
-# ==================================================
-# 1. 主题核心设置 (放在最前面，确保生效)
-# ==================================================
+# =================================================
+# 1. 基础设置 (保持不动)
+# =================================================
+title: 云一的小窝
+author: 云一
+language: zh-CN
+timezone: ''
+url: https://my-99d.pages.dev
+permalink: :year/:month/:day/:title/
+
+# 关键：告诉 Hexo 咱们用的是 butterfly 主题
+theme: butterfly
+
+# =================================================
+# 2. 部署设置
+# =================================================
+deploy:
+  type: ''
+
+# =================================================
+# 3. 主题个性化 (必须放在最后！！)
+# =================================================
 theme_config:
-  # 背景图 (对应 source/bg.png)
+  # 背景图 (用你的 bg.png)
   background: /bg.png
   
-  # 头像
+  # 头像 (注意！我改成了和背景一样的图，这样你只要看到头像变了，就说明成功了！)
   avatar:
-    img: https://unpkg.com/hexo-theme-butterfly/source/img/avatar.png
+    img: /bg.png
     effect: true
     
   # 公告
   notice:
     enable: true
-    content: "终于成功了"
+    content: "配置终于生效了！"
 
-# ==================================================
-# 2. 博客基础配置 (不要动下面这些)
-# ==================================================
-# Hexo Configuration
-## Docs: https://hexo.io/docs/configuration.html
-## Source: https://github.com/hexojs/hexo/
-
-# Site
-title: 雲一
-subtitle: ''
-description: ''
-keywords:
-author: 雲一
-language: zh-CN
-timezone: ''
-
-# URL
-## Set your site url here.
-url: https://my-99d.pages.dev
-permalink: :year/:month/:day/:title/
-permalink_defaults:
-pretty_urls:
-  trailing_index: true
-  trailing_html: true
-
-# Directory
+# =================================================
+# 4. 其他杂项 (防止报错)
+# =================================================
 source_dir: source
 public_dir: public
 tag_dir: tags
@@ -49,8 +45,6 @@ category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
-
-# Writing
 new_post_name: :title.md
 default_layout: post
 titlecase: false
@@ -63,51 +57,3 @@ render_drafts: false
 post_asset_folder: false
 relative_link: false
 future: true
-syntax_highlighter: highlight.js
-highlight:
-  enable: true
-  line_number: true
-  auto_detect: false
-  tab_replace: ''
-  wrap: true
-  hljs: false
-prismjs:
-  enable: false
-  preprocess: true
-  line_number: true
-  tab_replace: ''
-
-# Home page setting
-index_generator:
-  path: ''
-  per_page: 10
-  order_by: -date
-
-# Category & Tag
-default_category: uncategorized
-category_map:
-tag_map:
-
-# Metadata elements
-meta_generator: true
-
-# Date / Time format
-date_format: YYYY-MM-DD
-time_format: HH:mm:ss
-updated_option: 'mtime'
-
-# Pagination
-per_page: 10
-pagination_dir: page
-
-# Include / Exclude file(s)
-include:
-exclude:
-ignore:
-
-# Extensions
-theme: butterfly
-
-# Deployment
-deploy:
-  type: ''

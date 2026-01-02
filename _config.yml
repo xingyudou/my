@@ -109,10 +109,10 @@ deploy:
 theme_config:
   # 下面这些必须缩进 2 格！属于 theme_config 的手下
   avatar:
-    img: https://unpkg.com/hexo-theme-butterfly/source/img/avatar.png
+    img: https://github.com/user-attachments/assets/0259884f-761c-4e29-be2a-35e1c03017ee
     effect: true
 
-  background: "#ff9900"
+  background: https://github.com/user-attachments/assets/0259884f-761c-4e29-be2a-35e1c03017ee
 
   notice:
     enable: true

@@ -3,12 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: 雲一      <-- 把 Hexo 改成你的名字
 subtitle: ''
 description: ''
 keywords:
-author: John Doe
-language: en
+author: 雲一           <-- 把 John Doe 改成你的名字
+language: zh-CN       <-- 把 en 改成 zh-CN (这样菜单就会自动变成中文“首页、归档”)
 timezone: ''
 
 # URL

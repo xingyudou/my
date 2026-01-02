@@ -1,3 +1,19 @@
+# ==================================================
+# 主题设置 (放在这里绝对不会错)
+# ==================================================
+theme_config:
+  background: /bg.png
+  avatar:
+    img: https://unpkg.com/hexo-theme-butterfly/source/img/avatar.png
+    effect: true
+  notice:
+    enable: true
+    content: "终于成功了"
+
+# ==================================================
+# 原有配置从下面开始
+# ==================================================
+
 # Hexo Configuration
 ## Docs: https://hexo.io/docs/configuration.html
 ## Source: https://github.com/hexojs/hexo/
@@ -103,19 +119,3 @@ theme: butterfly
 deploy:
   type: ''
 
-# =======================================================
-# 下面是主题设置 (theme_config 和上面的 deploy 是彻底对齐的)
-# =======================================================
-theme_config:
-  # 1. 背景图
-  background: /bg.png
-
-  # 2. 头像
-  avatar:
-    img: https://unpkg.com/hexo-theme-butterfly/source/img/avatar.png
-    effect: true
-
-  # 3. 公告
-  notice:
-    enable: true
-    content: "终于搞定了！"

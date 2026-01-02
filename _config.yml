@@ -113,6 +113,6 @@ theme_config:
     effect: true
 
   # 3. 设置公告 (注意缩进：enable 和 content 前面有 4 个空格)
-  notice:
+  notice:  
     enable: true
     content: "客！<br>记录"

@@ -1,0 +1,12 @@
+# 1. 背景图
+background: /bg.png
+
+# 2. 头像 (显示默认头像证明配置生效，以后可以换成自己的 /avatar.png)
+avatar:
+  img: https://unpkg.com/hexo-theme-butterfly/source/img/avatar.png
+  effect: true
+
+# 3. 公告
+notice:
+  enable: true
+  content: "欢迎来到云一的小窝"

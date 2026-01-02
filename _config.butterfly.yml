@@ -1,5 +1,5 @@
 # 1. 背景图
-background: /bg.png
+background: https://github.com/user-attachments/assets/0259884f-761c-4e29-be2a-35e1c03017ee
 
 # 2. 头像 (显示默认头像证明配置生效，以后可以换成自己的 /avatar.png)
 avatar:

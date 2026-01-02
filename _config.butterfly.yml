@@ -1,12 +1,11 @@
 # 替换头像 (Avatar)
 avatar:
-  img: https://github.com/user-attachments/assets/aa24b1ab-3027-4f91-a8e9-40254b5e9414
+  img: https://github.com/user-attachments/assets/0259884f-761c-4e29-be2a-35e1c03017ee
   effect: true
 
 # 替换大背景图 (Background)
 # 如果你想用同一张图做背景，就用下面这行：
-background: https://github.com/user-attachments/assets/aa24b1ab-3027-4f91-a8e9-40254b5e9414
-
+background: https://github.com/user-attachments/assets/0259884f-761c-4e29-be2a-35e1c03017ee
 # 侧边栏公告设置
 notice:
   enable: true

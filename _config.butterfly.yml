@@ -1,0 +1,9 @@
+background: /bg.png
+
+avatar:
+  img: https://unpkg.com/hexo-theme-butterfly/source/img/avatar.png
+  effect: true
+
+notice:
+  enable: true
+  content: "终于成功了"

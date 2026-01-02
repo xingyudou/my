@@ -1,12 +1,10 @@
-# 头像 (注意 avatar 是顶格写的，紧贴左边)
+# 注意：下面这几行全是顶格写的，前面没有任何空格！
 avatar:
-  img: https://github.com/user-attachments/assets/aa24b1ab-3027-4f91-a8e9-40254b5e9414
+  img: https://unpkg.com/hexo-theme-butterfly/source/img/avatar.png
   effect: true
 
-# 背景图 (注意 background 也是顶格写的)
-background: https://github.com/user-attachments/assets/aa24b1ab-3027-4f91-a8e9-40254b5e9414
+background: #ff9900
 
-# 公告 (notice 也是顶格写的)
 notice:
   enable: true
-  content: 欢迎来到云一的小窝！<br>这里记录我的生活和碎碎念。
+  content: "测试成功！配置生效了！"

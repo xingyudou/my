@@ -102,13 +102,18 @@ theme: butterfly
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
-# 注意：下面这几行全是顶格写的，前面没有任何空格！
-avatar:
-  img: https://unpkg.com/hexo-theme-butterfly/source/img/avatar.png
-  effect: true
+  
+# ============================================
+# 主题覆盖设置 (注意 theme_config 是顶格的)
+# ============================================
+theme_config:
+  # 下面这些必须缩进 2 格！属于 theme_config 的手下
+  avatar:
+    img: https://unpkg.com/hexo-theme-butterfly/source/img/avatar.png
+    effect: true
 
-background: #ff9900
+  background: "#ff9900"
 
-notice:
-  enable: true
-  content: "测试成功！配置生效了！"
+  notice:
+    enable: true
+    content: "配置成功！这下肯定变了！"

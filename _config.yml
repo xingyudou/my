@@ -102,20 +102,3 @@ theme: butterfly
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
-
-# ==========================================
-# 必须写在这里才生效！注意 theme_config 顶格写！
-# ==========================================
-theme_config:
-  # 1. 背景图 (对应你 source 文件夹里的 bg.png)
-background:  /bg.png
-
-  # 2. 头像
-avatar:
-    img: https://unpkg.com/hexo-theme-butterfly/source/img/avatar.png
-    effect: true
-
-  # 3. 公告
-notice:
-    enable: true
-    content: "欢迎来到云一的小窝"

@@ -1,7 +1,7 @@
-# 1. 背景图
-background: https://github.com/user-attachments/assets/0259884f-761c-4e29-be2a-35e1c03017ee
+# 1. 背景图 (直接用网图，排除本地路径问题)
+background: https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg/402px-Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg
 
-# 2. 头像 (显示默认头像证明配置生效，以后可以换成自己的 /avatar.png)
+# 2. 头像
 avatar:
   img: https://unpkg.com/hexo-theme-butterfly/source/img/avatar.png
   effect: true
@@ -9,4 +9,4 @@ avatar:
 # 3. 公告
 notice:
   enable: true
-  content: "欢迎来到云一的小窝"
+  content: "如果在看蒙娜丽莎，说明配置成功了"

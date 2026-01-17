@@ -13,7 +13,7 @@ default_top_img: /img/top.jpg
 # 页面底色（不想要花里胡哨就用淡色）
 background:
   enable: true
-  background: "#f7e8ff"
+  background: "linear-gradient(135deg,#f7e8ff 0%,#ffe1f0 100%)"
 inject:
   head:
   bottom:

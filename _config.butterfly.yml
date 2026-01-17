@@ -26,5 +26,9 @@ footer:
   owner:
     enable: true
     since: 2026
-  custom_text: '© 2026 why | 记录 <br> <a href=" ">邮箱：99@966405.xyz</a >'
+  custom_text: '© 2026 why | 记录 <br>
+  <a href=" " target="_blank">站点</a > |
+  <a href="mailto:99@966405.xyz">邮箱</a >'
   copyright: true
+  social:
+  Telegram: https://t.me/NoFly_bot || fab fa-telegram-plane

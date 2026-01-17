@@ -20,5 +20,6 @@ background:
   attachment: fixed
 inject:
   head:
+    - <link rel="stylesheet" href="/css/custom.css">
   bottom:
     - <script src="/js/sakura.js"></script>

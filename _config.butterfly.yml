@@ -1,9 +1,10 @@
 # 公告（右侧“公告”卡片）
 aside:
-  card_announcement: 99@966405.xyz
+  card_announcement:
     enable: true
     content: |
       日常
+      [联系](https://t.me/NoFily_bot)
       
 
 # 顶部大图（你想换右边那条大背景就改它）

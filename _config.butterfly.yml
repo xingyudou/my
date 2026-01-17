@@ -1,0 +1,16 @@
+# 公告（右侧“公告”卡片）
+aside:
+  card_announcement:
+    enable: true
+    content: |
+      欢迎来到 
+      
+
+# 顶部大图（你想换右边那条大背景就改它）
+index_img: /img/top.jpg
+default_top_img: /img/top.jpg
+
+# 页面底色（不想要花里胡哨就用淡色）
+background:
+  enable: true
+  background: "#f6f7fb"

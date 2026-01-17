@@ -14,3 +14,7 @@ default_top_img: /img/top.jpg
 background:
   enable: true
   background: "#f6f7fb"
+inject:
+  head:
+  bottom:
+    - <script src="/js/sakura.js"></script>

@@ -3,7 +3,7 @@ aside:
   card_announcement:
     enable: true
     content: |
-      欢迎来到 
+      日常
       
 
 # 顶部大图（你想换右边那条大背景就改它）
@@ -13,7 +13,7 @@ default_top_img: /img/top.jpg
 # 页面底色（不想要花里胡哨就用淡色）
 background:
   enable: true
-  background: "#f6f7fb"
+  background: "#f7e8ff"
 inject:
   head:
   bottom:

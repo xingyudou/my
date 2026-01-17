@@ -28,4 +28,4 @@ footer:
     enable: true
     since: 2026
   custom_text: "© 2026 why | 记录"
-  copyright: false
+  copyright: true

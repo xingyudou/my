@@ -13,8 +13,8 @@ default_top_img: /img/tu1.jpg
 # 页面底色（不想要花里胡哨就用淡色）
 background:
   enable: true
-  background: "linear-gradient(135deg,#f7e8ff 0%,#ffe1f0 100%)"
-inject:
-  head:
-  bottom:
-    - <script src="/js/sakura.js"></script>
+  background: url(/img/tu1.jpg)
+  position: center center
+  repeat: no-repeat
+  size: cover
+  attachment: fixed

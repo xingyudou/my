@@ -23,3 +23,9 @@ inject:
     - <link rel="stylesheet" href="/css/custom.css">
   bottom:
     - <script src="/js/sakura.js"></script>
+footer:
+  owner:
+    enable: true
+    since: 2026
+  custom_text: "© 2026 why | 记录"
+  copyright: false

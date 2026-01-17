@@ -1,0 +1,28 @@
+/* 白板卡片整体：淡紫粉半透明 + 轻微毛玻璃 */
+#recent-posts .recent-post-item,
+#aside-content .card-widget,
+.layout > div:first-child:not(.recent-posts) > div,
+#post,
+.page,
+#archive,
+#tag,
+#category {
+  background: rgba(255, 240, 250, 0.82) !important; /* 淡粉紫 */
+  border: 1px solid rgba(255, 170, 210, 0.35) !important;
+  box-shadow: 0 8px 22px rgba(180, 90, 160, 0.12) !important;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 18px !important;
+}
+
+/* 卡片里面文字颜色更柔和一点 */
+#recent-posts .recent-post-item *,
+#aside-content .card-widget * {
+  color: rgba(60, 20, 60, 0.92) !important;
+}
+
+/* 标题加一点粉紫强调 */
+#recent-posts .recent-post-item .article-title,
+#aside-content .card-widget .item-headline span {
+  color: rgba(140, 40, 120, 0.95) !important;
+}
